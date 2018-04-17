@@ -1,7 +1,7 @@
 <?php
-$MyUsername = "admin";
+$MyUsername = "u132998352_admin";
 $MyPassword = "123456";
-$MyHostname = "localhost";
+$MyHostname = "mysql.hostinger.com";
 $My_db = "u132998352_track";
 
 $dbh = mysqli_connect($MyHostname, $MyUsername, $MyPassword, $My_db);
