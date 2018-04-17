@@ -5,8 +5,8 @@ $username = "u132998352_admin";
 $password = "123456";
 $dbname = "u132998352_track";
 
-$Latitude = $_GET["latitude"];
-$Longtitude = $_GET["longtitude"];
+$Latitude = $_GET["t"];
+$Longtitude = $_GET["h"];
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
