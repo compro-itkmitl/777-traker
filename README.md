@@ -5,8 +5,19 @@
 พวกเรา 777-traker ได้สร้างเว็บที่ใช้บอกตำแหน่งและติดตามของรถประจำทางสองแถวสาย 777 (จากชื่อกลุ่มของเรา โดยใช้คำรวมระหว่าง trace&track ได้เป็น trake แล้วจึงเป็น traker ในเวลาต่อมา)
 ซึ่งด้วยความเป็นเว็บทำให้สามารถเข้าถึงผู้คนได้ทั้ง pc mac หรือแม้กระทั่ง smartphone โดยภาษาหลักๆที่ใช้จะเป็นภาษา c, c++, php, html
 
+#  ![preview](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/hard.png) Hardwares
+- Arduino Uno R3
+- GPS Module
+- 3G Module UC15-T
+- Lithium-Polymer Battery 7.4v 3000mAh
+- Module DC-to-DC Step down Converter LM2596
+
 #  ![preview](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/preview.png) Web preview
-เว็บของเรา www.777traker.tk จะแสดงตำแหน่งที่ติดตามรถประจำทางสองแถว 777 โดยจะแสดงบนแผนที่ที่หน้าเว็บ ![webpage](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/webpage.png)
+เว็บของเรา www.777traker.tk จะแสดงตำแหน่งที่ติดตามรถประจำทางสองแถว 777 โดยจะแสดงผลบนแผนที่ที่หน้าเว็บ ![webpage](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/webpage.png)
+
+หรือในรูปแบบมือถือ
+
+ ![webpage](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/phone.png)
 
 #  ![help](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/Settings.png) How to use
 1.เข้าเว็บของเรา www.777traker.tk
