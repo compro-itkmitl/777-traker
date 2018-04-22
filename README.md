@@ -13,7 +13,7 @@
 ![help](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/bar.png)
 2.แสดงผลแบบ real-time ขณะที่อุปกรณ์ทำงาน
 ![help](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/mark.png)
-3.ผู้ใช้จะสามารถรู้ถึงตำแหน่งของรถประจำทางสาย 777 แบบเรียลไทม์ได้ทันที
+3.ผู้ใช้จะสามารถรู้ถึงตำแหน่งของรถประจำทางสาย 777 แบบ real-time ได้ทันที
 
 ![help](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/destination.png)
 
