@@ -15,7 +15,7 @@
 #  ![preview](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/preview.png) Web preview
 เว็บของเรา www.777traker.tk จะแสดงตำแหน่งที่ติดตามรถประจำทางสองแถว 777 โดยจะแสดงผลบนแผนที่ที่หน้าเว็บ ![webpage](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/webpage.png)
 
-หรือในรูปแบบมือถือ
+และในรูปแบบมือถือ
 
  ![webpage](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/phone.png)
 
@@ -27,6 +27,13 @@
 3.ผู้ใช้จะสามารถรู้ถึงตำแหน่งของรถประจำทางสาย 777 แบบ real-time ได้ทันที
 
 ![help](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/destination.png)
+
+#  ![preview](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/develop.png) Future Development
+- ขนาดของอุปกรณ์ที่เล็กลง
+- การรับส่งข้อมูลที่รวดเร็วมากยิ่งขึ้น
+- พัฒนาไปเป็นระบบติดตามเพื่อความปลอดภัย เช่น การติดตามรถตู้ส่งนักเรียน เพื่อป้องกันการเดินทางออกนอกเส้นทางต่างๆ
+หรือ การติดตามรถพยาบาลที่อยู่ใกล้เมื่อถึงเวลาฉุกเฉินสามารถติดต่อเจ้าหน้าที่ที่รถพยาบาลคันนั้นได้โดยตรง เป็นต้น
+
 
 #  ![person](https://github.com/compro-itkmitl/777-traker/blob/master/resouces/Person.png) Members
 | Name      | Surename           | Student ID   |
