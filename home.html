@@ -7,12 +7,11 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <meta charset="utf-8">
     <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
+      /* adjust map size */
       #map {
         height: 100%;
       }
-      /* Optional: Makes the sample page fill the window. */
+
       html {
         height: 100%;
         margin: 0;
@@ -27,7 +26,9 @@
     </style>
   </head>
   <body>
+  	<!-- display map -->
   <div id="map"></div>
+  
     <script>
     	var info;
 
@@ -37,51 +38,60 @@
 
 		var latlng;
 
+
     	function initMap() {
+    	// adjust the map zoom level
 			var mapOptions = {
 			  center: {lat:13.71225357, lng:100.66889953},
 			  zoom: 13,
 			}
 			
-				
+			// set div id="map" to display the map by the mapOption
 			maps = new google.maps.Map(document.getElementById("map"),mapOptions);
 
 			info = new google.maps.InfoWindow();
 
-			updatemap();
 
+			updatemap();
+			// call the fuction to update the marker every 5 sec.
 			window.setInterval(updatemap, 5000);
 		}	
 
+		// fuction to clear the old marker before pin the new one
 		function clear(){
 			for (var i = 0; i < markerArray.length; i++) {
 				markerArray[i].setMap(null);
 			}
 		}
 
+		//fuction to update the map marker
 		function updatemap(){
 			
+			//call the json file to get data from the database
 			$.getJSON( "json.php", function(jsonObj) {
-
+					//read the data in jsonObj
 					$.each(jsonObj, function(i, item){
-						latlng = new google.maps.LatLng(item.Latitude, item.Longtitude)
+						latlng = new google.maps.LatLng(item.Latitude, item.Longtitude) //define latlng as position
+						//placing marker
 						var marker = new google.maps.Marker({
 							position: latlng,
 							map: maps,
 						});
 						markerArray.push(marker);
-						maps.panTo(latlng);
+						maps.panTo(latlng); //move the center to new marker
 
-					 google.maps.event.addListener(marker, 'click', (function(marker, i) {
-						return function() {
-							info.setContent(item.Location);
-							info.open(maps, marker);
+						//pop up info
+						google.maps.event.addListener(marker, 'click', (function(marker, i) {
+							return function() {
+								info.setContent(item.Location);
+								info.open(maps, marker);
 						}
 					  })(marker, i));
 
 					}); 
 
 			 });
+
 			clear();
 		}	
 
