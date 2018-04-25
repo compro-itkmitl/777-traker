@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Simple Map</title>
+    <title>777traker</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta http-equiv="Cache-Control" content="no-store">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <meta charset="utf-8">
     <style>
       /* adjust map size */
-      #map {
+      /*#map {
         height: 100%;
-      }
+        width : 100%;
+      }*/
 
       html {
         height: 100%;
@@ -22,6 +23,8 @@
       #map {
         height: 800px;
         width: 1200px;
+        display: inline-block;
+        position: relative
       }
     </style>
   </head>
@@ -94,8 +97,6 @@
 
 			clear();
 		}	
-
-		google.setOnLoadCallback(initialize);
 
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7MZdEIb2nLuLBj3LFPdrGix1Ag4SwPy8&callback=initMap" async defer></script>
